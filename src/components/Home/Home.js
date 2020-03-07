@@ -8,7 +8,6 @@ export class Home extends Component {
   }
 
   render() {
-    console.log(this.props)
     return <HomeForm redirectToBook={this.redirectToBook} />;
   }
 }

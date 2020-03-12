@@ -51,7 +51,7 @@ export class Book extends Component {
     };
 
     render() {
-        console.log(this.props)
+        
         return <BookForm onSubmitHandler={this.onSubmitHandler} onChangeHandler={this.onChangeHandler} />;
     }
 }

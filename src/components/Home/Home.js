@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import HomeForm from "./HomeForm";
+import HomeView from "./HomeView";
 
 export class Home extends Component {
-
-  redirectToBook = e => {
-    this.props.history.push("/book");
-  }
-
+  
   render() {
-    return <HomeForm redirectToBook={this.redirectToBook} />;
+    
+    return (
+      <HomeView {...this.props} />
+    );
   }
 }
 
